@@ -5,7 +5,7 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise
 ```python
 def main():
     # escribe tu código abajo de esta línea
-    # Escribe un programa que determine el largo que debe tener una escalera, la cual se necesita para alcanzar una altura determinada, cuando se pone contra una casa. La altura que se desea alcanzar y el ángulo que deberá hacer la escalera contra la pared, son datos que te proporciona el usuario. 
+    # Escribe un programa que determine el largo que debe tener una escalera, la cual se necesita para alcanzar una altura determinada, cuando se pone contra una casa. La altura que se desea alcanzar y el ángulo que deberá hacer la escalera contra la pared, son datos que te proporciona el usuario.
     # Para calcular el largo de la escalera usa la siguiente ecuación: largo=altura/seno(ángulo). Recuerda que las funciones de Python que calculan seno y coseno, reciben los ángulos en radianes, pero tu programa va a recibir los ángulos en grados."
 
 
@@ -18,18 +18,32 @@ La línea `#escribe tu código abajo de esta línea` es un comentario, el progra
 ## Definición del problema
 
 Desarrolla un programa en Python que determine el largo que debe tener una escalera, la cual se necesita para alcanzar una altura determinada, cuando se pone contra una casa.
+Para calcular el largo de la escalera usa la siguiente ecuación: largo =  altura / seno(ángulo).
+Recuerda que las funciones de Python que calculan seno y coseno, reciben los ángulos en radianes,
+pero tu programa va a recibir los ángulos en grados.
 
+en el shell de python puedes consultar la información de las funciones -
+>>> import math
+>>> help(math)
+
+sin(x, /)
+       Return the sine of x (measured in radians).
+degrees(x, /)
+      Convert angle x from radians to degrees.
+radians(x, /)
+      Convert angle x from degrees to radians.
+      
 **Entradas**
 
 Un número que corresponde a la altura de la casa (flotante positivo) y el ángulo en grados (entero positivo), en ese orden.
 
-**Salida** 
+**Salida**
 
 Un número, un número que representa el largo que debe tener la escalera. IMPORTANTE: Redondea el número para que el resultado sea entero. Utiliza la función adecuada que te provee Python para realizar un redondeo.
 
 ## Ejemplos de ejecución
 
-Ejemplo 1 
+Ejemplo 1
 
 ```plaintext
 Altura de la casa: 2
@@ -38,7 +52,7 @@ Angulo en grados: 45
 Largo de la escalera: 3
 ```
 
-Ejemplo 2 
+Ejemplo 2
 
 ```plaintext
 Altura de la casa: 2
