@@ -19,13 +19,15 @@ La línea `#escribe tu código abajo de esta línea` es un comentario, el progra
 
 ## Definición del problema
 
-Desarrolla un programa en Python que calcule el area de un triángulo cuyos lados son de longitud a,b y c.
+Desarrolla un programa en Python que calcule el area de un triángulo cuyos lados son : 
+a, b y c.
 
-**Entradas**
+## **Entradas**
 
-El programa solicita los lados a, b y c. Todos enteros y en ese orden.
+El programa solicita los lados a, b y c.  
+Todos enteros y en ese orden.
 
-**Salida** 
+## **Salida** 
 
 El área del triangulo calculada con la siguiente fórmula
 
