@@ -2,8 +2,6 @@
 # Distancia entre dos puntos
 Modifica el programa que se encuentra en la carpeta `src` que se llama `exercise.py` y que contiene el siguiente código:
 
-# [Distancia entre 2 puntos - teorema de pitágoras ](https://www.matematicatuya.com/GRAFICAecuaciones/S1a.html)
-
 
 ```python
 def main():
@@ -23,15 +21,28 @@ La línea `#escribe tu código abajo de esta línea` es un comentario, el progra
 
 Desarrolla un programa en Python que calcule la distancia entre dos puntos del plano cartesiano.
 
-**Entradas**
+### [Distancia entre 2 puntos - teorema de pitágoras](https://www.matematicatuya.com/GRAFICAecuaciones/S1a.html)
+
+![](distancia.jpg)
+
+
+# **Entradas**
 
 El programa solicita el punto inicial (x1, y1) y el final (x2, y2). Todos enteros y en ese orden.
 
-**Salida**
+# **Salida**
 
-El valor de la distancia (numero flotante) que existe entre los dos puntos. Despliega el resultado con la palabra distancia (todo en minúsculas) y un = y el número formateado a 2 decimales (sin espacios entre caracteres y números). Por ejemplo: distancia= 9.90
-usa el f'string
+El valor de la distancia (numero flotante) que existe entre los dos puntos. 
+Despliega el resultado con la palabra distancia (todo en minúsculas) y un = y el número formateado a 2 decimales (sin espacios entre caracteres y números). 
+
+Por ejemplo: 
+
+distancia= 9.90 
+
+usa el f'string 
+
 Ejemplo: print(f' area = {area:.2f}')
+
 ## Ejemplos de ejecución
 
 Ejemplo 1
