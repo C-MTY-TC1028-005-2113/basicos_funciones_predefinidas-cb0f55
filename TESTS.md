@@ -9,128 +9,28 @@
 sudo -H pip3 install pytest
 ```
 
-- ## 00 Hello World
+- ## A01 Distancia Dos Puntos
     ### Run command
     ```
-    pytest assignments/00HelloWorld
+    pytest assignments/A01DistanciaDosPuntos
     ```
 
-- ## 01 Operaciones Básicas
+- ## A02 Escalera
     ### Run command
     ```
-    pytest assignments/01OperacionesBasicas
+    pytest assignments/A02Escalera
     ```
 
-- ## 02 Área Triángulo
+- ## A03Area
     ### Run command
     ```
-    pytest assignments/02AreaTriangulo
+    pytest assignments/A03Area
     ```
 
-- ## 03 Premedio Calificaciones
+
+- ## A04 Razon Aurea
     ### Run command
     ```
-    pytest assignments/03Promedio
+    pytest assignments/A04RazonAurea
     ```
 
-- ## 04 Calcula tiempo
-    ### Run command
-    ```
-    pytest assignments/04CalculaTiempo
-    ```
-
-- ## 05 Calcula lustros
-    ### Run command
-    ```
-    pytest assignments/05Lustros
-    ```
-
-- ## 06 Calcula peso por mes
-    ### Run command
-    ```
-    pytest assignments/06Peso
-    ```
-
-- ## 07 Pendiente Línea
-    ### Run command
-    ```
-    pytest assignments/07PendienteLinea
-    ```
-
-- ## 08 Caracol
-    ### Run command
-    ```
-    pytest assignments/08Caracol
-    ```
-
-- ## 09 Teléfono
-    ### Run command
-    ```
-    pytest assignments/09Telefono
-    ```
-
-- ## 10 Videojuego
-    ### Run command
-    ```
-    pytest assignments/10Videojuego
-    ```
-
-- ## 11 PEMDAS
-    ### Run command
-    ```
-    pytest assignments/11PEMDAS
-    ```
-
-- ## 13 Cantidad de Litros de Pintura
-    ### Run command
-    ```
-    pytest assignments/13CantidadLitrosPintura
-    ```
-
-- ## 14 Distancia Dos Puntos
-    ### Run command
-    ```
-    pytest assignments/14DistanciaDosPuntos
-    ```
-
-- ## 15 Escalera
-    ### Run command
-    ```
-    pytest assignments/15Escalera
-    ```
-
-- ## 17 Razon Aurea
-    ### Run command
-    ```
-    pytest assignments/17RazonAurea
-    ```
-
-- ## 18 Cuenta Bancaria
-    ### Run command
-    ```
-    pytest assignments/18CuentaBancaria
-    ```
-
-- ## 19 Editorial
-    ### Run command
-    ```
-    pytest assignments/19Editorial
-    ```
-
-- ## 20 Acertijo Edad
-    ### Run command
-    ```
-    pytest assignments/20AcertijoEdad
-    ```
-
-- ## 21 Levadura para Pizza
-    ### Run command
-    ```
-    pytest assignments/21LevaduraParaPizza
-    ```
-
-- ## 22 Digitos Pares
-    ### Run command
-    ```
-    pytest assignments/22DigitosPares
-    ```
